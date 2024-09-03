@@ -3,4 +3,4 @@ version: "0.1.0"
 usage: |
   creacion de secrets mediante openSSL, creacion del archivo secret.yaml
 description: "Secret creator with base64 string"
-command: "WhiteStack/Plugin/SecretCreator.sh"
+command: "WhiteStack/Plugin/SecretCreator/SecretCreator.sh"
