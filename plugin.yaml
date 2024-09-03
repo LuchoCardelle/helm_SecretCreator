@@ -2,5 +2,5 @@ name: "SecretCreator"
 version: "0.1.0"
 usage: |
   creacion de secrets mediante openSSL, creacion del archivo secret.yaml
-description: "A Helm plugin that validates sensitive parameters in values.yaml and migrates them to Kubernetes secrets."
-command: "~/.local/share/helm/plugins/helm_SecretCreator.git/SecretCreator.sh"
+description: "Secret creator with base64 string"
+command: "WhiteStack/Plugin/SecretCreator.sh"
