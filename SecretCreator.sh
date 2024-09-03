@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-DIRWRK="/root/helmcharts/WhiteStack/ch5"
+DIRWRK="WhiteStack/ch5"
 
 
 ###########################################################
