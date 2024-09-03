@@ -1,0 +1,6 @@
+name: "SecretValidator"
+version: "0.1.0"
+usage: |
+  creacion de secrets mediante openSSL, creacion del archivo secret.yaml
+description: "A Helm plugin that validates sensitive parameters in values.yaml and migrates them to Kubernetes secrets."
+command: "/root/helmcharts/WhiteStack/plugin/SecretCreator/SecretCreator.sh"
