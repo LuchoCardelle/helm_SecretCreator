@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-DIRWRK="WhiteStack/ch5"
+DIRWRK="WhiteStack"
 
 
 ###########################################################
@@ -103,8 +103,8 @@ create_secret() {
   --from-literal="$STRINGVALUE" \
   --from-literal="$STRINGKEY" \
   --namespace whitestack \
-  -o yaml > $DIRWRK/templates/secret.yaml
-  echo "Secret created and saved to secret.yaml"
+  -o yaml > $DIRWRK/secret.yaml
+  echo "Secret created and saved to $DIRWORK/secret.yaml"
 }
 
 #####################################
