@@ -105,6 +105,7 @@ create_secret() {
   --namespace whitestack \
   -o yaml > $DIRWRK/secret.yaml
   echo "Secret created and saved to $DIRWORK/secret.yaml"
+  echo "Copy this file to your chart/template directory before deploy the chart."
 }
 
 #####################################
